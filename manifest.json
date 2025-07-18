@@ -1,0 +1,19 @@
+{
+	"manifest_version":3,
+	"name":"Enregistre tes favoris ici",
+	"version":"3.0",
+	"description":"cette extension permet d'enregistrer l'adresse des sites qui te plaisent pour les consulter plus tard :D",
+	"action":{
+		"default_popup":"popup.html",
+		"default_icon":"Vert Foncé et Vert Clair Moderne Dégradé Produits Santé Logo.png"
+	},
+	"permissions":	["storage","activeTab","scripting","Tabs"],
+	"host_permissions": [
+		"https://*/*",
+  		"http://*/*"
+	]
+	
+		
+
+}
+
